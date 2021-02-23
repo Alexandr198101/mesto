@@ -1,0 +1,25 @@
+.button__save {
+  min-width: 358px;
+  min-height: 50px;
+  background: #000;
+  border-radius: 2px;
+  margin-top: 48px;
+  margin-bottom: 37px;
+  margin-left: 36px;
+  margin-right: 36px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFF;
+}
+
+@media screen and (max-width: 767px) {
+  .button__save {
+    min-width: 238px;
+    min-height: 46px;
+    margin-left: 22px;
+  }
+}
