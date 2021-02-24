@@ -1,7 +1,7 @@
 
 let popup = document.querySelector('.popup');
-let buttonShow = document.querySelector('.button__info');
-let buttonClose = document.querySelector('.button__close');
+let buttonShow = document.querySelector('.button_type_edit');
+let buttonClose = document.querySelector('.popup__button_close');
 let formElement = document.querySelector('.popup__form');
 let nameInput = document.querySelector('.popup__input');
 let jobInput = document.querySelector('.popup__about');

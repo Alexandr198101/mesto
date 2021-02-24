@@ -19,22 +19,23 @@
       <img src="images/avatar.jpg" alt="Аватарка" class="profile__avatar">
       <div class="profile__info">
         <h1 class="profile__author">Александр Ёж</h1>
-        <button class="button button__info"><img class="button__info" src="images/button/Vector.svg"
+        <button class="button button_type_edit"><img class="info__btn" src="images/button/Vector.svg"
             alt="Кнопка редактирования"></button>
         <p class="profile__text">Исследователь океана</p>
       </div>
-      <button class="profile__add"></button>
+      <button class="button button_type_add"><img class="profile__btn" src="images/button/plus.svg"
+          alt="Плюс на кнопке"></button>
 
       <article class="popup" id="popup">
         <div class="popup__container">
-          <button class="button__close"></button>
+          <button class="popup__button popup__button_close"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
           <form class="popup__form">
             <input type="text" name="profilename" value="Александр Ёж" class="popup__input" placeholder="Ваше Имя"
               minlength="1" maxlength="30" required>
             <input type="text" name="profileabout" value="Исследователь океана" class="popup__input popup__about"
               placeholder="О себе" minlength="1" maxlength="30" required>
-            <button class="button__save">Сохранить</button>
+            <button class="popup__button popup__button_save">Сохранить</button>
           </form>
         </div>
       </article>

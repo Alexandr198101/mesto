@@ -1,21 +1,15 @@
-.button__info {
+.button_type_edit {
   max-width: 24px;
   max-height: 24px;
   grid-column-start: 2;
   grid-column-end: 3;
   align-self: center;
-
+  border: none;
 }
 
 @media screen and (max-width: 767px) {
-  .button__info {
-    padding: 0;
+  .button_type_edit {
     max-width: 18px;
     max-height: 18px;
-
   }
-}
-
-.button__info:hover {
-  opacity: 0.6;
 }
