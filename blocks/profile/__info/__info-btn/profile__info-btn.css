@@ -1,10 +1,10 @@
-.profile__info_btn {
+.profile__info-btn {
   max-width: 24px;
   max-height: 24px;
 }
 
 @media screen and (max-width: 767px) {
-  .profile__info_btn {
+  .profile__info-btn {
     max-width: 18px;
     max-height: 18px;
   }
