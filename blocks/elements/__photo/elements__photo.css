@@ -1,0 +1,8 @@
+.elements__photo {
+  object-fit: fill;
+  min-width: 282px;
+  max-height: 282px;
+  border-radius: 10px 10px 0px 0px;
+  max-width: 100%;
+  /*transform: rotate(90deg);*/
+}

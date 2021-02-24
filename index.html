@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Mesto</title>
+</head>
+
+<body class="body">
+  <div class="header">
+    <img src="images/Logo.svg" alt="Логотип" class="header__logo">
+    <div class="header__line"></div>
+  </div>
+
+  <main>
+    <section class="profile">
+      <img src="images/avatar.jpg" alt="Аватарка" class="profile__avatar">
+      <div class="profile__info">
+        <h1 class="profile__author">Александр Ёж</h1>
+        <button class="button button__info"><img class="button__info" src="images/button/Vector.svg"
+            alt="Кнопка редактирования"></button>
+        <p class="profile__text">Исследователь океана</p>
+      </div>
+      <button class="profile__add"></button>
+
+      <article class="popup" id="popup">
+        <div class="popup__container">
+          <button class="button__close"></button>
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <form class="popup__form">
+            <input type="text" name="profilename" value="Александр Ёж" class="popup__input" placeholder="Ваше Имя"
+              minlength="1" maxlength="30" required>
+            <input type="text" name="profileabout" value="Исследователь океана" class="popup__input popup__about"
+              placeholder="О себе" minlength="1" maxlength="30" required>
+            <button class="button__save">Сохранить</button>
+          </form>
+        </div>
+      </article>
+
+    </section>
+
+
+    <section class="elements">
+      <div class="elements__card">
+        <img src="images/Certovka.jpg" alt="Река Чертовка" class="elements__photo">
+        <div class="elements__wrapper">
+          <h2 class="elements__title">Чертовка</h2>
+          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+        </div>
+      </div>
+      <div class="elements__card">
+        <img src="images/Decin.jpg" alt="Замок Дечин" class="elements__photo">
+        <div class="elements__wrapper">
+          <h2 class="elements__title">Замок Дечин</h2>
+          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+        </div>
+      </div>
+      <div class="elements__card">
+        <img src="images/Lazne.jpg" alt="Музей Сметана" class="elements__photo">
+        <div class="elements__wrapper">
+          <h2 class="elements__title">Музей Сметана</h2>
+          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+        </div>
+      </div>
+      <div class="elements__card">
+        <img src="images/Pravčická_brána.jpg" alt="Правчицкие ворота" class="elements__photo  elements__photo-deg">
+        <div class="elements__wrapper">
+          <h2 class="elements__title">Петершин</h2>
+          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+        </div>
+      </div>
+      <div class="elements__card">
+        <img src="images/Spindlerov_mlyn.jpg" alt="Шпиндлеров Млын" class="elements__photo">
+        <div class="elements__wrapper">
+          <h2 class="elements__title">Шпиндлеров Млын</h2>
+          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+        </div>
+      </div>
+      <div class="elements__card">
+        <img src="images/střecha.jpg" alt="Крыши домов" class="elements__photo">
+        <div class="elements__wrapper">
+          <h2 class="elements__title">Пражские крыши</h2>
+          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="footer">
+    <p class="footer__author">&copy; 2021 CZ</p>
+  </div>
+  <script src="styles/index.js"></script>
+</body>
+
+</html>
