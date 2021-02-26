@@ -1,6 +1,6 @@
 .button_type_edit {
   max-width: 24px;
-  max-height: 24px;
+  height: 24px;
   grid-column-start: 2;
   grid-column-end: 3;
   align-self: center;
@@ -10,6 +10,6 @@
 @media screen and (max-width: 767px) {
   .button_type_edit {
     max-width: 18px;
-    max-height: 18px;
+    height: 18px;
   }
 }

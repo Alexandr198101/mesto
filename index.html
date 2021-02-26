@@ -9,14 +9,13 @@
 </head>
 
 <body class="body">
-  <div class="header">
-    <img src="images/Logo.svg" alt="Логотип" class="header__logo">
-    <div class="header__line"></div>
-  </div>
+  <header class="header">
+    <img src="images/Logo.svg" alt="Логотип" class="line header__logo" />
+  </header>
 
   <main>
     <section class="profile">
-      <img src="images/avatar.jpg" alt="Аватарка" class="profile__avatar">
+      <img class="profile__avatar" src="images/avatar.jpg" alt="Аватарка">
       <div class="profile__info">
         <h1 class="profile__author">Александр Ёж</h1>
         <button class="button button_type_edit"><img class="profile__info-btn" src="images/button/Vector.svg"
@@ -25,20 +24,21 @@
       </div>
       <button class="button button_type_add"><img class="profile__btn" src="images/button/plus.svg"
           alt="Плюс на кнопке"></button>
+    </section>
 
-      <article class="popup" id="popup">
-        <div class="popup__container">
-          <button class="popup__button popup__button_close"></button>
-          <h2 class="popup__title">Редактировать профиль</h2>
-          <form class="popup__form">
-            <input type="text" name="profilename" value="Александр Ёж" class="popup__input" placeholder="Ваше Имя"
-              minlength="1" maxlength="30" required>
-            <input type="text" name="profileabout" value="Исследователь океана" class="popup__input popup__about"
-              placeholder="О себе" minlength="1" maxlength="30" required>
-            <button class="popup__button popup__button_save">Сохранить</button>
-          </form>
-        </div>
-      </article>
+    <article class="popup" id="popup">
+      <div class="popup__container">
+        <button class="popup__button popup__button_close"></button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form class="popup__form">
+          <input type="text" name="profilename" value="Александр Ёж" class="popup__input" placeholder="Ваше Имя"
+            minlength="1" maxlength="30" required>
+          <input type="text" name="profileabout" value="Исследователь океана" class="popup__input popup__about"
+            placeholder="О себе" minlength="1" maxlength="30" required>
+          <button class="popup__button popup__button_save">Сохранить</button>
+        </form>
+      </div>
+    </article>
 
     </section>
 
@@ -91,7 +91,7 @@
   <div class="footer">
     <p class="footer__author">&copy; 2021 CZ</p>
   </div>
-  <script src="styles/index.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>
