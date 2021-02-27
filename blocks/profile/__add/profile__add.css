@@ -11,6 +11,7 @@
   background-image: url(../../../images/button/Button__880.svg);
   background-repeat: no-repeat;
   margin-left: auto;
+  border-radius: 2px;
 }
 
 .profile__add:hover {

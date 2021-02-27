@@ -18,76 +18,76 @@
       <img class="profile__avatar" src="images/avatar.jpg" alt="Аватарка">
       <div class="profile__info">
         <h1 class="profile__author">Александр Ёж</h1>
-        <button class="button button_type_edit"><img class="profile__info-btn" src="images/button/Vector.svg"
-            alt="Кнопка редактирования"></button>
+        <button type="button" class="button button_type_edit" aria-label="close"><img class="profile__info-btn"
+            src="images/button/Vector.svg" alt="Кнопка редактирования"></button>
         <p class="profile__text">Исследователь океана</p>
       </div>
-      <button class="button button_type_add"><img class="profile__btn" src="images/button/plus.svg"
+      <button type="button" class="button button_type_add"><img class="profile__btn" src="images/button/plus.svg"
           alt="Плюс на кнопке"></button>
     </section>
-
-    <article class="popup" id="popup">
-      <div class="popup__container">
-        <button class="popup__button popup__button_close"></button>
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <form class="popup__form">
-          <input type="text" name="profilename" value="Александр Ёж" class="popup__input" placeholder="Ваше Имя"
-            minlength="1" maxlength="30" required>
-          <input type="text" name="profileabout" value="Исследователь океана" class="popup__input popup__about"
-            placeholder="О себе" minlength="1" maxlength="30" required>
-          <button class="popup__button popup__button_save">Сохранить</button>
-        </form>
-      </div>
-    </article>
 
     <section class="elements">
       <div class="elements__card">
         <img src="images/Certovka.jpg" alt="Река Чертовка" class="elements__photo">
         <div class="elements__wrapper">
           <h2 class="elements__title">Чертовка</h2>
-          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+          <button type="button" class="button elements__heart" aria-label="like"></button>
         </div>
       </div>
       <div class="elements__card">
         <img src="images/Decin.jpg" alt="Замок Дечин" class="elements__photo">
         <div class="elements__wrapper">
           <h2 class="elements__title">Замок Дечин</h2>
-          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+          <button type="button" class="button elements__heart" aria-label="like"></button>
         </div>
       </div>
       <div class="elements__card">
         <img src="images/Lazne.jpg" alt="Музей Сметана" class="elements__photo">
         <div class="elements__wrapper">
           <h2 class="elements__title">Музей Сметана</h2>
-          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+          <button type="button" class="button elements__heart" aria-label="like"></button>
         </div>
       </div>
       <div class="elements__card">
         <img src="images/Pravčická_brána.jpg" alt="Правчицкие ворота" class="elements__photo  elements__photo-deg">
         <div class="elements__wrapper">
           <h2 class="elements__title">Петершин</h2>
-          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+          <button type="button" class="button elements__heart" aria-label="like"></button>
         </div>
       </div>
       <div class="elements__card">
         <img src="images/Spindlerov_mlyn.jpg" alt="Шпиндлеров Млын" class="elements__photo">
         <div class="elements__wrapper">
           <h2 class="elements__title">Шпиндлеров Млын</h2>
-          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+          <button type="button" class="button elements__heart" aria-label="like"></button>
         </div>
       </div>
       <div class="elements__card">
         <img src="images/střecha.jpg" alt="Крыши домов" class="elements__photo">
         <div class="elements__wrapper">
           <h2 class="elements__title">Пражские крыши</h2>
-          <img src="images/heart.svg" alt="Нравиться" class="elements__heart">
+          <button type="button" class="button elements__heart" aria-label="like"></button>
         </div>
       </div>
     </section>
   </main>
-  <div class="footer">
+  <footer class="footer">
     <p class="footer__author">&copy; 2021 CZ</p>
-  </div>
+  </footer>
+
+  <article class="popup" id="popup">
+    <div class="popup__container">
+      <button type="button" class="popup__button popup__button_type_close" aria-label="close"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form" name="popupform">
+        <input type="text" name="profilename" value="" class="popup__input popup__input_type_name"
+          placeholder="Ваше Имя" minlength="1" maxlength="20" required>
+        <input type="text" name="profileabout" value="" class="popup__input popup__input_type_about"
+          placeholder="О себе" minlength="1" maxlength="20" required>
+        <button type="submit" class="popup__button popup__button_type_save">Сохранить</button>
+      </form>
+    </div>
+  </article>
   <script src="scripts/index.js"></script>
 </body>
 

@@ -1,4 +1,4 @@
-.popup__button_close {
+.popup__button_type_close {
   display: flex;
   margin: 0;
   min-width: 50px;
@@ -14,8 +14,13 @@
   background-size: 100%;
 }
 
+.popup__button_type_close:hover {
+  opacity: 0.8;
+  transition: 0.1s linear;
+}
+
 @media screen and (max-width: 767px) {
-  .popup__button_close {
+  .popup__button_type_close {
     min-width: 26px;
     height: 26px;
     right: -6px;
