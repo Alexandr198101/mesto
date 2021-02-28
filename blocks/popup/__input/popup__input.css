@@ -8,10 +8,10 @@
   font-style: normal;
   font-weight: 400;
   box-sizing: border-box;
-  padding-bottom: 0;
-  padding-top: 0;
   margin-left: 36px;
   margin-bottom: 17px;
+  padding-bottom: 13px;
+  outline: none;
 }
 
 .popup__input:last-of-type {

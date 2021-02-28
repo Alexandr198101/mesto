@@ -15,7 +15,8 @@
 }
 
 .popup__button_type_close:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  transform: rotate(45deg);
   transition: 0.1s linear;
 }
 
